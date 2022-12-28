@@ -1,3 +1,11 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
+  font-size: 14px;
+  font-weight: 400;
+}
+
 a.logo {
   color: #212121;
   font-size: 26px;
@@ -13,7 +21,7 @@ a.logo {
   color: #2196f3;
 }
 
-.web-navigate a {
+.web-navigate li > a {
   text-decoration: none;
 }
 .web-navigate a:hover,
@@ -65,7 +73,7 @@ button:focus {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
 }
 .im-elements {
   background-color: #f5f4fa;
@@ -77,16 +85,16 @@ button:focus {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
 }
 .im-elements h4 {
   font-weight: 500;
   font-size: 16px;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
 }
 .im-elements p {
   font-size: 16px;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 
